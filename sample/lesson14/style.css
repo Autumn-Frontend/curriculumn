@@ -1,0 +1,17 @@
+.box1 {
+  background-color: darksalmon;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+
+.box2 {
+  background-color: azure;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  right: 80px;
+}
