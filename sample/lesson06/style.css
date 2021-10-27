@@ -1,0 +1,20 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  border: 5px solid cornflowerblue;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+/* 上 */
+  border-top: 7px solid cornflowerblue;
+  /* 下 */
+  border-bottom: 7px double cornflowerblue;
+  /* 右 */
+  border-right: 7px dashed cornflowerblue;
+  /* 左 */
+  border-left: 7px dotted cornflowerblue;
+}
