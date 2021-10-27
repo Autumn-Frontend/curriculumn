@@ -1,0 +1,33 @@
+body {
+  padding: 10px;
+}
+
+/* :nth-child() */
+p:nth-child(3){
+  color: red;
+}
+
+p:nth-child(odd){
+  background-color: beige;
+}
+
+p:nth-child(even){
+  background-color: aliceblue;
+}
+
+p:nth-child(n + 2){
+  margin-top: 30px;
+}
+
+/* :hover */
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+}
+
+.box:hover{
+  height: 200px;
+  width: 200px;
+  background-color: cornflowerblue;
+}
