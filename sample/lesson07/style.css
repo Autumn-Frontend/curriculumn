@@ -1,0 +1,27 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 50px;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: lightskyblue;
+  padding: 50px;
+}
+
+.sample {
+  
+  margin-top: 40px; /* 上側に40pxのmarginを指定 */
+  margin-right: 40px; /* 右側に40pxのmarginを指定 */
+  padding-bottom: 40px; /* 下側に40pxのmarginを指定 */
+  padding-left: 40px; /* 左側に40pxのmarginを指定 */
+
+  margin: 1px; /* 値1つは、上下左右 */
+  margin: 1px 2px; /* 値2つは、上下 左右 */
+  padding: 1px 2px 3px; /* 値3つは、上 左右 下 */
+  padding: 1px 2px 3px 4px; /* 値4つは、上 右 下 左 （時計まわり）*/
+
+}
