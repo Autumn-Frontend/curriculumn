@@ -1,0 +1,104 @@
+body{
+  padding: 10px;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border: 2px solid rgb(151, 212, 250);
+
+}
+.box:nth-child(odd){
+  background-color: cornflowerblue;
+}
+.box:nth-child(even){
+  background-color: azure;
+}
+
+/* flex-direction */
+.flex1{
+  display: flex;
+  /* ----------デフォルト値---------- */
+  flex-direction: row; 
+}
+
+.flex2{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex3{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex4{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* ----------flex-wrap---------- */
+.flex5{
+  display: flex;
+  /* デフォルト値 */
+  flex-wrap: nowrap; 
+}
+
+.flex6{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex7{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* ----------justify-content---------- */
+.flex8{
+  display: flex;
+  /* デフォルト値 */
+  justify-content: flex-start;
+}
+
+.flex9{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex10{
+  display: flex;
+  justify-content: center;
+}
+
+.flex11{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex12{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ----------justify-content---------- */
+
+.align{
+  height: 200px;
+}
+
+.flex13{
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex14{
+  display: flex;
+  align-items: center;
+}
+
+.flex15{
+  display: flex;
+  align-items: flex-end;
+}
