@@ -1,0 +1,19 @@
+.content-box {
+  background-color: lightgreen;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 20px solid #fff;
+  box-sizing: content-box;
+}
+
+.border-box {
+  background-color: lightskyblue;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 20px solid #fff;
+  box-sizing: border-box;
+}
