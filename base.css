@@ -1,0 +1,22 @@
+body {
+  background-color: antiquewhite;
+}
+
+.code {
+  width: 400px;
+  background-color: rgb(243, 252, 252);
+}
+.code2 {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(243, 252, 252);
+}
+
+.line {
+  margin: 20px 0;
+  height: 2px;
+  background-color: rgba(171, 160, 160, 0.653);
+}
