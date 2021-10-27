@@ -1,0 +1,35 @@
+.box1 {
+  width: 200px;
+  height: 100px;
+  background-color: lightgoldenrodyellow;
+}
+
+.box2 {
+  width: 50%;
+  height: 200px;
+  background-color: skyblue;
+}
+
+.box3 {
+  width: 50%;
+  height: 80%;
+  background-color: cornflowerblue;
+}
+
+.box4 {
+  width: 40vw;
+  height: 20vw;
+  background-color: yellow;
+}
+
+.box5 {
+  width: 40vh;
+  height: 20vh;
+  background-color: orange;
+}
+
+.box6 {
+  /* width: auto;   //デフォルト値 */
+  height: 100px;
+  background-color: lightgreen;
+}
