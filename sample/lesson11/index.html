@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson03</title>
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ブロック要素 -->
+    <h1>ブロック要素</h1>
+    <p>
+      &lt;div&gt; / &lt;p&gt; / &lt;h1&gt; / &lt;ul&gt;など
+    </p>
+
+    <p class="block1">横幅と高さの調整ができる</p>
+    <p class="block2">親要素の横幅の値（今回はbodyタグ）まで広がる</p>
+    <p class="block3">高さの初期値は中の内容で決まる</p>
+    <p class="block4">縦並びになる</p>
+
+<div class="line"></div>
+
+    <!-- インライン要素 -->
+    <h1>インライン要素</h1>
+    <p>
+      &lt;a&gt; / &lt;span&gt; / &lt;strong&gt; / &lt;i&gt;など
+    </p>
+
+    <span class="inline1">横幅と高さの調整はできない</span>
+    <span class="inline">横幅の初期値は中の内容で決まる</span>
+    <span class="inline3">高さの初期値は中の内容で決まる</span>
+    <span class="inline4">横並びになる</span>
+
+    <div class="line"></div>
+
+    <!-- インラインブロック要素 -->
+    <h1>インラインブロック要素</h1>
+    <p>
+      該当のタグはない<br>
+      ブロック要素やインライン要素に<br>
+      display: inline-block;<br>
+      を指定することで変更できる
+    </p>
+
+    <p class="inline_block1">横幅と高さの調整ができる</p>
+    <p class="inline_block2">横幅の初期値は中の内容で決まる</p>
+    <p class="inline_block3">高さの初期値は中の内容で決まる</p>
+    <p class="inline_block4">横並びになる</p>
+
+    <div class="line"></div>
+
+    <table>
+      <tr>
+        <th></th>
+        <th>横幅と高さの指定</th>
+        <th>横幅の初期値</th>
+        <th>高さの初期値</th>
+        <th>並び方</th>
+      </tr>
+      <tr>
+        <td>ブロック要素</td>
+        <td>可能</td>
+        <td>親要素の横幅の値</td>
+        <td>中の内容で決まる</td>
+        <td>改行される</td>
+      </tr>
+      <tr>
+        <td>インライン要素</td>
+        <td>不可能</td>
+        <td>中の内容で決まる</td>
+        <td>中の内容で決まる</td>
+        <td>改行されない</td>
+      </tr>
+      <tr>
+        <td>インラインブロック要素</td>
+        <td>可能</td>
+        <td>中の内容で決まる</td>
+        <td>中の内容で決まる</td>
+        <td>改行されない</td>
+      </tr>
+    </table>
+  </body>
+</html>
