@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+}
+
+.text {
+  color: red;
+}
+
+.text::before {
+  content: "before";
+  color: blue;
+}
+
+.text::after {
+  content: "after";
+  color: green;
+}
