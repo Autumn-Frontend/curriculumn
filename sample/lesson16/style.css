@@ -1,0 +1,40 @@
+.box1 {
+  background-color: azure;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.box2 {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.box3 {
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.box4 {
+  background-color: tomato;
+  width: 500px;
+  height: 100px;
+}
+
+.wrap::after{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/* .wrap::before {
+  display: block;
+  clear: both;
+  content: "";
+} */
+
+
